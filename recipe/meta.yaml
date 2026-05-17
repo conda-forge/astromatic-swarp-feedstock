@@ -22,6 +22,8 @@ requirements:
     - gnuconfig  # [unix]
     - libtool
     - make
+  host:
+    - cfitsio
 
 test:
   source_files:
