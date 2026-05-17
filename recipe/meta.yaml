@@ -1,5 +1,5 @@
 {% set name = "swarp" %}
-{% set version = "2.38.0" %}
+{% set version = "2.41.5" %}
 
 package:
   name: astromatic-{{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/astromatic/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: e95022547ff6f29387131818d3618d4bd7fc506eb56e37fea7ca96bf2b976d4c
+  sha256: 954cebb1e5b1b4f7791b9b38b4e0f07bb2233775a97d6254def5c24b6b5a7f31
 
 build:
   skip: true  # [win]
