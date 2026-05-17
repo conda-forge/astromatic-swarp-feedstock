@@ -17,7 +17,10 @@ requirements:
   build:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
+    - autoconf
+    - automake
     - gnuconfig  # [unix]
+    - libtool
     - make
 
 test:
