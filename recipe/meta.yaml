@@ -8,6 +8,8 @@ package:
 source:
   url: https://github.com/astromatic/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
   sha256: 954cebb1e5b1b4f7791b9b38b4e0f07bb2233775a97d6254def5c24b6b5a7f31
+  patches:
+    - 0001-fix-gammln-prototype-for-c23.patch
 
 build:
   skip: true  # [win]
