@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/astromatic-swar
 
 Home: https://www.astromatic.net/software/swarp
 
-Package license: GPL-3.0
+Package license: GPL-3.0-only
 
 Summary: SWarp is a program that resamples and co-adds together FITS images
 using any arbitrary astrometric projection defined in the WCS standard
